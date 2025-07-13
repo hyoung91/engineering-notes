@@ -1,11 +1,16 @@
 # Site settings
 title: Engineering Notes
 author: hyoung91
-email: whophin@gmail.com  # 선택사항
+email: whophin@gmail.com  
 description: >-
-  Technical blog about robotics
-baseurl: "/engineering-notes" # 리포지토리 이름
-url: "https://hyoung91.github.io" # 기본 도메인
+  Technical blog about robotics, ROS2, and AI-assisted development
+baseurl: "/engineering-notes"
+url: "https://hyoung91.github.io"
+
+show_excerpts: true
+header_pages:
+  - archive.md
+  - about.md
 
 # Build settings
 theme: minima  # GitHub Pages 기본 테마
