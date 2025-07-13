@@ -4,8 +4,8 @@ author: hyoung91
 email: whophin@gmail.com  # 선택사항
 description: >-
   Technical blog about robotics
-baseurl: "" # 서브경로가 없으면 비워둠
-url: "https://hyoung91.github.io" # 여기에 실제 URL
+baseurl: "/engineering-notes" # 리포지토리 이름
+url: "https://hyoung91.github.io" # 기본 도메인
 
 # Build settings
 theme: minima  # GitHub Pages 기본 테마
