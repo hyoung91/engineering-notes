@@ -1,8 +1,7 @@
 ---
 layout: home
+title: Home
 ---
-
-# Engineering Notes
 
 수질 모니터링 시스템, ROS2 개발 경험을 공유합니다.
 
@@ -17,4 +16,4 @@ layout: home
 ---
 {% endfor %}
 
-[View all posts →](/archive)
+[View all posts →]({{ '/archive' | relative_url }})
