@@ -4,7 +4,7 @@ layout: home
 
 # Engineering Notes
 
-수질 모니터링 시스템, ROS2, AI 협업 개발 경험을 공유합니다.
+수질 모니터링 시스템, ROS2 개발 경험을 공유합니다.
 
 ## Recent Posts
 
