@@ -96,9 +96,6 @@ depth_msg = Float64(data=depth_m)
 ```
 
 #### 3단계: 모든 노드 동기화
-- `mqtt_reel_ctrl.py`: 퍼블리셔 변경
-- `sensor_data_node.py`: 구독자 변경  
-- `manta_data_processor.py`: 구독자 변경
 
 ### 결과
 
