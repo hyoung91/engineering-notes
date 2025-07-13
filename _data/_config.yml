@@ -1,0 +1,61 @@
+# Site settings
+title: Engineering Notes
+author: hyoung91
+email: whophin@gmail.com  # 선택사항
+description: >-
+  Technical blog about robotics
+baseurl: "" # 서브경로가 없으면 비워둠
+url: "https://hyoung91.github.io" # 여기에 실제 URL
+
+# Build settings
+theme: minima  # GitHub Pages 기본 테마
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Post settings
+permalink: /:year/:month/:day/:title/
+future: true
+timezone: Asia/Seoul
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+# Social (선택사항)
+github_username: hyoung91
+linkedin_username: # 있으면 추가
+
+# Google Analytics (선택사항)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Disqus Comments (선택사항)
+# disqus:
+#   shortname: your-disqus-shortname
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
